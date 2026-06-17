@@ -1,24 +1,23 @@
-I have below lobs and below transactions, I need to create combinations of lobs for each transaction.
-create combinations as many as possible b
+I have below lobs and below transactions, I need to create policies for each lob along with different business transactions
 Lobs:
--Property
--Inland Marine  
--General Liability
--Umbrella
--Financial Lines
+-P&C
+-Marine  
+-Splprg (specialties Programs)
+-Specialities
+-Surety
+-umbrella
+-Construction
+-Excess
 
 Transactions:
 -New Business
 -Renewal    
 -Policychange
 -Rewrite
+-Cancel
 
-Example combinations: Add/delete as needed
--New Business: Property + Inland Marine
--Renewal: General Liability + Umbrella
--Policychange: Property + Financial Lines
--Rewrite: Inland Marine + General Liability
-
-Eg: -New Business: Property + Inland Marine + General Liability remove Property in policy change  and add Umbrella
-
-Dont reference any other file, just give me combinations in csv format.
+Example of policy creation with LOB: 
+-New Business: Property 
+-Renewal: Umbrella
+-Policychange: Marine
+-Rewrite: Excess
