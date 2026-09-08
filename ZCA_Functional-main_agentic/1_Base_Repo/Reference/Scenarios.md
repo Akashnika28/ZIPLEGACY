@@ -1,12 +1,6 @@
-##Scenarios Need to be covered in all userstories
+##Scenarios Need to be covered in all userstories for below transactions
 - New Business
-- Policychange
-- Cancel and Reinstate
-- Cancel and Rewrite
-- policy change Midterm
+- Cancellation
 - Renewal
-- Coverage or form not added in New Business but adding in policychange/Rewrite/Renewal
-- Renewal on Backdated New Business
-- Ui level validation also need to cover
-- Include all products (Umbrella, General Liability, Inland Marine, Property)
-- Produced scope 
+- Endorsemenets
+
